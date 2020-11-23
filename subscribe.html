@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light style="background-color: #e3f2fd;">
+        <a class="navbar-brand">Debora Rocha</a>
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="about.html" target="_blank">About Me</a>
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            <a class="nav-link" href="subscribe.html" target="_blank">Subscribe</a>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="textContainer">  
+    <h2>Subscribe</h2>
+    <form>
+        <p>Sign up to receive our latest posts by email here!</p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <fieldset>
+          <legend>What destinations would you be interested to know more?</legend>
+          <input id="france" type="checkbox" name="destination" value="france">
+          <label for="france">France</label><br>
+          <input id="mexico" type="checkbox" name="destination" value="mexico">
+          <label for="mexico">Mexico</label><br>
+          <input id="jamaica" type="checkbox" name="destination" value="jamaica">
+          <label for="jamaica">Jamaica</label><br>
+          <input id="australia" type="checkbox" name="destination" value="australia">
+          <label for="australia">Australia</label><br>
+          <input id="other" type="checkbox" name="destination" value="other">
+          <label for="other">Other</label>
+          <input id="otherValue" type="text" name="other"><br><br>
+          <input type="submit" name="submit" value="Submit">
+        </fieldset>
+    </form>
+</div>
+<div class="footer">
+    <footer> <small>&copy; Copyright 2020, Debora Rocha</small> </footer> 
+</div>
+</body>
+</html>

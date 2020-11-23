@@ -1,3 +1,7 @@
+  .textContainer {
+    padding: 15px 100px 20px 15px;
+  }
+ 
   .imgContainer{
     float:left;
     padding: 5px;
@@ -16,27 +20,17 @@
     opacity: 0.5;
     transition: .5s;
 }
-    #img:hover .text{
+   #img:hover .text{
         visibility:visible;
     }
-
-   #text {
-    color: red;
-    font-size: 16px;
-    padding: 16px 32px;
-    position:relative;
-    bottom:130px;
-    left:130px;
-    visibility:hidden;
-  }
 
   .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
-    color: white;
+    background-color: rgb(231, 230, 230);
+    color: gray;
     text-align: center;
 }
  
