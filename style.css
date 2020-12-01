@@ -1,36 +1,35 @@
-  .textContainer {
-    padding: 15px 100px 20px 15px;
-  }
- 
-  .imgContainer{
-    float:left;
-    padding: 5px;
-  }
-
-   #photo {
-    height: 350px;
-    width: 350px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-  }
-
-   img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-    opacity: 0.5;
-    transition: .5s;
+.textContainer {
+  padding: 15px 100px 20px 30px;
 }
-   #img:hover .text{
-        visibility:visible;
-    }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(231, 230, 230);
-    color: gray;
-    text-align: center;
+.imgContainer {
+  float: left;
+  padding: 5px;
 }
- 
+
+#photo {
+  height: 350px;
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#img:hover .text {
+  visibility: visible;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(231, 230, 230);
+  color: gray;
+  text-align: center;
+}
