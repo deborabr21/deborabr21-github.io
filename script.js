@@ -1,29 +1,9 @@
-function validate() {
-  var name = document.getElementById("name");
-  var phone = document.getElementById("phone");
-  var email = document.getElementById("email");
-  var message = document.getElementById("message");
+const formName = document.getElementById("name");
+const formPhone = document.getElementById("phone");
+const formEmail = document.getElementById("email");
+const formMessage = document.getElementById("message");
 
-  if (name.value == "") {
-    alert("Make sure the name field is filled");
-    return false;
-  }
-
-  if (phone.value == "") {
-    alert("Make sure the phone field is filled");
-    return false;
-  }
-
-  if (email.value == "") {
-    alert("Make sure the email field is filled");
-    return false;
-  }
-
-  if (message.value == "") {
-    alert("Make sure the message field is filled");
-    return false;
-  }
-}
+document.getElementById("forms").addEventListener("submit", event);
 
 function submit(event) {
   if (!validate()) {
